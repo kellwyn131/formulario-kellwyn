@@ -1,0 +1,109 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.Fundoimg {
+    width: 100vw;
+    height: 100vh;
+    min-width: 450px;
+}
+.CaixaForm {
+    position: absolute; left: 50%; top: 50%;
+    width: 400px;
+    height: 600px;
+    background:#5bc6ff;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    transform: translate(-50%, -50%);
+    opacity: 95%;
+    z-index: 1;
+}
+.CaixaUsername {
+    position:  absolute; left: 50%; top: 25%;
+    width: 250px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.CaixaEmail {
+    position:  absolute; left: 50%; top: 38%;
+    width: 250px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.CaixaSenha {
+    position:  absolute; left: 50%; top: 51%;
+    width: 250px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.CaixaConfSenha {
+    position:  absolute; left: 50%; top: 64%;
+    width: 250px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.CaixaCadastrar {
+    position:  absolute; left: 50%; top: 85%;
+    width: 250px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.CaixaCadastrar:hover {
+    background: #d5d0d0;
+
+}
+.CadastrarTexto {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+}
+.Usuario {
+    font-size: 15px;
+    position: absolute; left: 20%; top: 15%;
+}
+.Email {
+    font-size: 15px;
+    position: absolute; left: 20%; top: 28%;
+}
+.Senha {
+    font-size: 15px;
+    position: absolute; left: 20%; top: 41%;
+}
+.ConfSenha {
+    font-size: 15px;
+    position: absolute; left: 20%; top: 54%;
+}
+.Cadastrar {
+    position: absolute; left: 30%; top: 78.5%;
+    font-size: 25px;
+    z-index: 2;
+}

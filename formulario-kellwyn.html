@@ -6,8 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario-kellwyn.css">
     <title>Exercício Formulário</title>
+    <script src="formulario-kellwyn.js" defer></script>
 </head>
 <body>
+    <img class="Fundoimg" src="img/fundo anime.png" alt="">
     
+    <div class="CaixaForm">
+        <h1 class="CadastrarTexto">CADASTRAR</h1>
+        <input type="text" id="name" class="CaixaUsername" maxlength="25" minlength="3">
+        <input type="email" id="email" class="CaixaEmail">
+        <input type="password" class="CaixaSenha" id="senha" minlength="8">
+        <input type="password" class="CaixaConfSenha" id="confsenha" minlength="8">
+        <input type="submit" class="CaixaCadastrar" id="button" value="CADASTRAR"> 
+        <h2 class="Usuario">Username</h2>
+        <h3 class="Email">Email</h3>
+        <h3 class="Senha">Senha</h3>
+        <h3 class="ConfSenha">Confirmação de senha</h3>
+        <h3 class="erro1" id="erro1">Username possui caracteres especiais!</h3>
+        <h3 class="erro2" id="erro2">Username possui caracteres insuficientes!</h3>
+        <h3 class="erro3" id="erro3">Por favor insira um email válido!</h3>
+        <h3 class="erro4" id="erro4">A senha deve conter no minimo 8 caracteres!</h3>
+        <h3 class="erro5" id="erro5">As senhas devem ser iguais!</h3>
+    </div>
 </body>
 </html>
